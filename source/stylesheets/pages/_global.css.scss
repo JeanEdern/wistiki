@@ -62,7 +62,7 @@ header#header {
         }
 
 #slide {
-  background: #A5A5A7 url('../img/fond-home.jpg') no-repeat 50% 50%;
+  background: #A5A5A7  no-repeat 50% 50%;
   padding: 45px 0;
 }
   #slide h1 {
@@ -86,7 +86,7 @@ header#header {
   text-align: center;
 }
   .gallery > a.fancy-div {
-    background: url("icon-play.png") no-repeat left center;
+    background: image-url("icon-play.png") no-repeat left center;
     color: #f79722;
     display: inline-block;
     font-size: 22px;
