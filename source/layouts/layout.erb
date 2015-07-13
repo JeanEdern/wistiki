@@ -12,6 +12,7 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="http://www.wistiki.com/themes/site/img/favicon.png" /> -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 
 
     <%= stylesheet_link_tag "all" %>
@@ -19,7 +20,7 @@
 
     <!-- Print -->
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Wistiki by JeanEdern" %></title>
@@ -34,7 +35,7 @@
   </head>
 
   <!-- <body class="<%= page_classes %>"> -->
-  <body id="index" class="index hide-left-column hide-right-column lang_fr">
+  <body>
     <%= yield %>
   </body>
 </html>
