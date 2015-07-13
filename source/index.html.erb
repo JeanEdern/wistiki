@@ -7,9 +7,9 @@ title: Wistiki moves to Japan!
         <div class="container">
           <div class="row top">
             <div class="col-xs-3 logo">
-              <a href="http://www.wistiki.com/" title="Wistiki">
+              <span id="modal-trigger" data-toggle="modal" data-target="#myModal" data-href="http://www.wistiki.com/" title="Wistiki">
                 <img class="img-responsive" src="http://www.wistiki.com/themes/site/img/logo.png" alt="Wistiki" />
-              </a>
+              </span>
             </div>
             <div class="col-xs-9 menu">
               <ul class="row">
@@ -185,7 +185,7 @@ title: Wistiki moves to Japan!
 </div>
 
 
-<div class="modal fade">
+<div class="modal fade" id="myModal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -196,8 +196,8 @@ title: Wistiki moves to Japan!
         <p>One fine body&hellip;</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Go back to Wistiki Japan</button>
+        <a id="modal-link" class="btn btn-primary" href="">Visit Wistiki's official website</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
