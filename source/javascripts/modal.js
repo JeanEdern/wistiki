@@ -1,8 +1,12 @@
-$('a').click(function (e) {
-  e.preventDefault();
-  return false;
-  // $('.modal').modal('show');
-})
+// $('a').click(function (e) {
+//   e.preventDefault();
+//   return false;
+//   // $('.modal').modal('show');
+// })
+
+// $('a').each(function(e){
+//   e.preventDefault
+// })
 
 // tableau[1].getAttribute('href')
 
